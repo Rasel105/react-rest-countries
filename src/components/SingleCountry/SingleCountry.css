@@ -1,0 +1,26 @@
+.country{
+     height: 510px;
+     border: 1px solid gray;
+     border-radius: 10px;
+     position: relative;
+}
+.country img{
+     width: 360px;
+     height: 250px;
+     border-radius: 10px;
+}
+.country-detail{
+     padding: 10px;
+}
+.details-btn{
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     border: none;
+     background-color: rgb(75, 233, 75);
+     border-radius: 0 0 10px 10px;
+     cursor: pointer;
+}
+.details-btn:hover{
+     color: green;
+}

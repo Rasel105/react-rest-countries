@@ -1,0 +1,17 @@
+.display-contries{
+     width: 250px;
+     display: grid;
+     grid-template-columns: 4fr, 1fr;   
+     margin-left: 20px;
+     margin-right: 10px;
+     display: flex;
+}
+.country-container{
+     margin-top: 20px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 25px;
+}
+.country-details{
+     padding-left: 40px;
+}
